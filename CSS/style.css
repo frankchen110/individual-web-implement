@@ -1,0 +1,159 @@
+body{
+    margin: 0; 
+    padding: 0; 
+    font-size: 62.5%;
+}
+.nav_list{
+    display: flex;
+    width: 100vw;
+    margin: 0;
+    height: 55px;
+    position: absolute;
+    z-index:2;
+}
+.nav_list:hover{
+    background-color:black;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+}
+
+.nav_list_item{
+    list-style: none;
+    padding:12px 30px;
+}
+
+.nav_list_item_link:hover{
+    color: #97CC87;
+    transition-duration: 0.4s;
+}
+.nav_list_item_link{
+    display: block;
+    text-decoration: none;
+    line-height: 30px;
+    color: white;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+.nav_list_item_link_img{
+    display: block;
+    width: 50px;
+    margin-top: 2px;
+    margin-left: 400px;
+    padding: 0px;
+    border: 0px;
+}
+
+.main_img{
+    display: block;
+    position: absolute;
+    margin-top: 0;
+    background-position: 0;
+}
+
+
+/*banner*/
+.banner {
+    position: relative;
+    z-index:1;
+    width: 100vw;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+
+.main_img_text_more{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    font-size: 1.4em;
+    margin: 0;
+    background-color: rgba(180, 180, 180, 0.418);
+    color: black;
+}
+.carousel-caption{
+    padding-top: 50px;
+    background-color: rgba(90, 90, 90, 0.418);
+    margin-bottom: 50px;
+    border-radius: 20px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_img_text_more:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+}
+
+.img_3_knowhow{
+    position: absolute;
+    margin-top: 510px;
+    margin-left: 110px;
+    width: 350px;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 50px;
+    font-size: 1.4em;
+    background-color: rgba(180, 180, 180, 0.418);
+    color: rgb(255, 255, 255);
+}
+
+.img_3_knowhow:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #97CC87;
+    transition-duration: 0.4s;
+    transition-timing-function: ease;
+}
+
+.mar{
+    margin: 7px;
+}
+
+.row{
+    margin-bottom: 7px;
+}
+
+.one{
+    margin: 2px;
+    color: black;
+}
+
+.stitle{
+    font-size: 1.4em;
+    margin-top: 10px;
+}
+
+.one_2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.infobar{
+    background-color: #97CC87;
+    width: 100vw;
+}
+
+.icon{
+    margin-top: 12px;
+}
+
+.icon_1{
+    margin-right: 10px;
+}
+
+.footer_text{
+    color: white;
+    margin-top: 15px;
+}
+
+footer{
+    background-color: black;
+    height: 55px;
+    margin-top: -7px;
+}
